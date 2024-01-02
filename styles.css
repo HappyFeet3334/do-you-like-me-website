@@ -1,0 +1,89 @@
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #ffcc00, #ff6600);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family:Times, serif;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.content {
+    display: flex;
+    background: transparent;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    outline: 4px solid white;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+img {
+    width: 75%;
+    height: auto;
+    border-radius: 10%;
+}
+
+h1 {
+    width: 75%;
+    height: 10%;
+    background: transparent;
+}
+
+.buttons2 {
+    display: flex;
+    background: transparent;
+    width: 75%;
+    height: 25%;
+    padding: 10%;
+}
+
+.buttons1 {
+    width: 200px;
+    height: 80px;
+    border-radius: 30px;
+    background: transparent;
+    outline: 2px solid white;
+    border: none;
+    font-size: xx-large;
+    color: white;
+    margin: 2%;
+}
+
+/* Add this style for the moving button */
+#movingButton {
+    position: relative;
+    width: 200px;
+    height: 80px;
+    border-radius: 30px;
+    background: transparent;
+    outline: 2px solid white;
+    border: none;
+    font-size: xx-large;
+    color: white;
+    margin: 2%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease; /* Smooth transition for position change */
+  }
+
+  #movingButton.absolutePosition {
+    position: absolute;
+  }
+
+.buttons1:hover {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3));
+    outline: none;
+}
