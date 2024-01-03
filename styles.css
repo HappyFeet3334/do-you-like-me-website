@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5%;
+    padding: 0.3%;
 }
 
 .content {
@@ -23,8 +23,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: auto;
+    width: 55%;
+    height: 90%;
     outline: 4px solid white;
     border-radius: 10%;
     padding: 1%;
@@ -38,10 +38,11 @@ img {
 
 h1 {
     width: 75%;
-    height: 10%;
+    height: auto;
     font-size: 5vh;
     color: white;
     background: transparent;
+    padding: 2%;
 }
 
 .buttons2 {
@@ -50,7 +51,7 @@ h1 {
     background: transparent;
     width: 75%;
     height: 25%;
-    padding: 10%;
+    padding: 5%;
 }
 
 .buttons1 {
@@ -62,7 +63,7 @@ h1 {
     border: none;
     font-size: xx-large;
     color: white;
-    margin: 2%;
+    margin: 10%;
 }
 
 /* Add this style for the moving button */
@@ -76,7 +77,7 @@ h1 {
     border: none;
     font-size: xx-large;
     color: white;
-    margin: 2%;
+    margin: 10%;
     border: none;
     cursor: pointer;
     transition: all 0.5s ease; /* Smooth transition for position change */
