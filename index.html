@@ -9,11 +9,11 @@
 <body>
     <section class="wrapper">
        <div class="content">
-        <img src="https://media.tenor.com/MA-XV-95YuwAAAAC/dancing-cat.gif" alt="">
-        <h1>do you like me?</h1>
+        <img id="main img" src="https://media.tenor.com/MA-XV-95YuwAAAAC/dancing-cat.gif" alt="">
+        <h1 id="main heading">do you like me?</h1>
         <div class="buttons2">
-            <button class="buttons1">yes</button>
-            <button id="movingButton" onmouseover="setAbsolutePosition(),moveButton()">no</button>
+            <button id="yes" onclick="yippee()" class="buttons1">yes</button>
+            <button id="movingButton" onmouseover="setAbsolutePosition(),moveButton()" onclick="setAbsolutePosition(),moveButton()">no</button>
         </div>  
        </div>
     </section>

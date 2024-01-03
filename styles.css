@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    padding: 0.5%;
 }
 
 .content {
@@ -39,11 +39,14 @@ img {
 h1 {
     width: 75%;
     height: 10%;
+    font-size: 5vh;
+    color: white;
     background: transparent;
 }
 
 .buttons2 {
     display: flex;
+    justify-content: center;
     background: transparent;
     width: 75%;
     height: 25%;
@@ -87,3 +90,4 @@ h1 {
     background-image: linear-gradient(rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3));
     outline: none;
 }
+
