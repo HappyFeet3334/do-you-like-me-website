@@ -6,8 +6,8 @@ function moveButton() {
     var screenHeight = window.innerHeight;
 
     // Calculate random positions
-    var randomX = Math.floor(Math.random() * (screenWidth - button.offsetWidth));
-    var randomY = Math.floor(Math.random() * (screenHeight - button.offsetHeight));
+    var randomX = Math.floor(Math.random() * (screenWidth - button.offsetWidth)-50);
+    var randomY = Math.floor(Math.random() * (screenHeight - button.offsetHeight)-50);
 
     // Set new positions
     button.style.left = randomX + 'px';

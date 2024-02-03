@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to right, #ffcc00, #ff6600);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     font-family:Times, serif;
     overflow: hidden;
@@ -23,8 +23,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 55%;
-    height: 90%;
+    width: 40%;
+    height: 75%;
     outline: 4px solid white;
     border-radius: 10%;
     padding: 1%;
@@ -42,16 +42,14 @@ h1 {
     font-size: 5vh;
     color: white;
     background: transparent;
-    padding: 2%;
+    padding: 6%;
 }
 
 .buttons2 {
     display: flex;
     justify-content: center;
     background: transparent;
-    width: 75%;
-    height: 25%;
-    padding: 5%;
+    padding: .5%;
 }
 
 .buttons1 {
