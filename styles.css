@@ -23,7 +23,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 90%;
     height: 90%;
     outline: 4px solid white;
     border-radius: 10%;
@@ -31,8 +31,8 @@
 }
 
 img {
-    width: 75%;
-    height: auto;
+    width: 60%;
+    height: 100%;
     border-radius: 10%;
 }
 
